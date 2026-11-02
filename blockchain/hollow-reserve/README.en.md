@@ -2,7 +2,7 @@
 
 [日本語](README.ja.md)
 
-This was solved on ReFlection's isolated [challenge instance](https://ctf.hiddeninvestigations.net/challenges?challenge=bb99717c-d62a-4b9f-b0a4-017e257d8765). The objective was to reduce the reserve vault below its threshold.
+This was solved on the team's isolated [challenge instance](https://ctf.hiddeninvestigations.net/challenges?challenge=bb99717c-d62a-4b9f-b0a4-017e257d8765). The objective was to reduce the reserve vault below its threshold.
 
 ## Oracle manipulation in one transaction
 

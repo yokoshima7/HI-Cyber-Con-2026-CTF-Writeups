@@ -2,7 +2,7 @@
 
 [日本語](README.ja.md)
 
-ReFlection solved the [official challenge](https://ctf.hiddeninvestigations.net/challenges?challenge=c2a91af0-0164-4988-acff-92cc455c09c9) from its signed transaction archive, SHA-256 `9397090fc7419f8c581199533ee42ec3786e82ddcf0bd302f05c63d75542f957`.
+We solved the [official challenge](https://ctf.hiddeninvestigations.net/challenges?challenge=c2a91af0-0164-4988-acff-92cc455c09c9) from its signed transaction archive, SHA-256 `9397090fc7419f8c581199533ee42ec3786e82ddcf0bd302f05c63d75542f957`.
 
 ## Recovery
 

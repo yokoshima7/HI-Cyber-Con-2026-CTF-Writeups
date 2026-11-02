@@ -18,6 +18,6 @@ with zipfile.ZipFile("probe.zip", "w") as archive:
 
 Uploading this archive and immediately opening the returned `link.txt` URL returned the instance's `/etc/passwd`. That control showed the viewer followed the symlink. Repeating the same entry with `/app/flag.txt` returned the flag. Reading `/app/app.py` also confirmed the application directory; the tested `/flag`, `/flag.txt`, and `/app/flag` paths returned 404.
 
-The team submitted `hiCTF{E45Y_5yml1Nk_15cba4b28e}`. The challenge page showed `Flag correct!` and `Challenge solved!`; File Viewer is also in ReFlection's final public solved set. The instance was stopped afterward.
+The team submitted `hiCTF{E45Y_5yml1Nk_15cba4b28e}`. The challenge page showed `Flag correct!` and `Challenge solved!`; File Viewer is also in the team's final public solved set. The instance was stopped afterward.
 
 The archived `../escape.txt` and template-looking filename tests did not produce the flag. The decisive bug was following an archive member's symbolic link outside its extraction directory.

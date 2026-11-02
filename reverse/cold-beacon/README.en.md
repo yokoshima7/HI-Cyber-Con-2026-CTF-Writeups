@@ -10,4 +10,4 @@ We extracted the operation type, selected indexes, and target for each row from 
 
 Several keys can satisfy the visible constraints. For each model, we computed `seed = SHA256(key)`, made a stream of `SHA256(seed || counter_be32)` blocks, and XORed it with the embedded 47-byte ciphertext. The binary's embedded SHA-256 digest of the plaintext identifies the right model.
 
-Result: `hiCTF{c0ld_b34c0n_cfg_uns34l3d_fr0m_th3_s4mpl3}`. ReFlection's official end-of-event solved set includes Cold Beacon. The local solution also matched the embedded plaintext digest. The original solver used `z3-solver`; no challenge binary is mirrored here.
+Result: `hiCTF{c0ld_b34c0n_cfg_uns34l3d_fr0m_th3_s4mpl3}`. The team's official end-of-event solved set includes Cold Beacon. The local solution also matched the embedded plaintext digest. The original solver used `z3-solver`; no challenge binary is mirrored here.

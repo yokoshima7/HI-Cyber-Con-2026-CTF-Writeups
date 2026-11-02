@@ -2,7 +2,7 @@
 
 [日本語](README.ja.md)
 
-ReFlection solved the [official challenge](https://ctf.hiddeninvestigations.net/challenges?challenge=4b0623b2-54b1-412a-8407-cc469bf7f490) on its isolated private chain. The challenge archive SHA-256 was `1d8cc1775f249e3ad8c8d1afc3ebff3e065e7dc238384152ba84992d7c51d823`.
+We solved the [official challenge](https://ctf.hiddeninvestigations.net/challenges?challenge=4b0623b2-54b1-412a-8407-cc469bf7f490) on our isolated private chain. The challenge archive SHA-256 was `1d8cc1775f249e3ad8c8d1afc3ebff3e065e7dc238384152ba84992d7c51d823`.
 
 ## Reuse the voucher before it is marked used
 

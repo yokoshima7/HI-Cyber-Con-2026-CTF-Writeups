@@ -18,6 +18,6 @@ with zipfile.ZipFile("probe.zip", "w") as archive:
 
 これをアップロードし、返された `link.txt` のURLをすぐ開くと、インスタンス内の `/etc/passwd` が返った。リンク先を `/app/flag.txt` に替えるとflagが返った。`/app/app.py` も読めたのでアプリの配置場所を裏付けられる。一方、試した `/flag`、`/flag.txt`、`/app/flag` は404だった。
 
-取得した `hiCTF{E45Y_5yml1Nk_15cba4b28e}` を提出すると、公式画面に `Flag correct!` と `Challenge solved!` が表示された。最終公開解答一覧にもReFlectionのsolveとして載っている。検証後に自チームのインスタンスは停止した。
+取得した `hiCTF{E45Y_5yml1Nk_15cba4b28e}` を提出すると、公式画面に `Flag correct!` と `Challenge solved!` が表示された。最終公開解答一覧にも自チームのsolveとして載っている。検証後に自チームのインスタンスは停止した。
 
 `../escape.txt` やテンプレート風のファイル名は解法にならなかった。原因は、ZIPの展開領域の外を指すシンボリックリンクを閲覧処理が辿ったことにある。

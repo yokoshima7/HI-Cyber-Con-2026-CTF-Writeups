@@ -2,7 +2,7 @@
 
 [English](README.en.md)
 
-[公式 Log Jam](https://ctf.hiddeninvestigations.net/challenges?challenge=4c01e897-f33f-45bd-8b00-249d493f6d8e) の配布 ZIP の SHA-256 は `25350191fa48891bf7ef70202a283fbbb9ea1d9c1c8904b5a5a4d09903fccfee` でした。ReFlection は最終公式解答済み一覧に含まれています。
+[公式 Log Jam](https://ctf.hiddeninvestigations.net/challenges?challenge=4c01e897-f33f-45bd-8b00-249d493f6d8e) の配布 ZIP の SHA-256 は `25350191fa48891bf7ef70202a283fbbb9ea1d9c1c8904b5a5a4d09903fccfee` でした。自チームの最終公式解答済み一覧に本問が含まれています。
 
 ## 復元
 

@@ -2,7 +2,7 @@
 
 [日本語](README.ja.md)
 
-The [official archive](https://ctf.hiddeninvestigations.net/challenges?challenge=0c29db29-bbf3-4dd1-b07a-6e5f05db558f) has SHA-256 `47250d4a65be0eb4ff5e8b4c31ae2120f95bb086f301ebb2467f7640614952c0`. ReFlection's answer was accepted.
+The [official archive](https://ctf.hiddeninvestigations.net/challenges?challenge=0c29db29-bbf3-4dd1-b07a-6e5f05db558f) has SHA-256 `47250d4a65be0eb4ff5e8b4c31ae2120f95bb086f301ebb2467f7640614952c0`. The team's answer was accepted.
 
 ## Decoding chain
 

@@ -2,7 +2,7 @@
 
 [日本語](README.ja.md)
 
-The [official challenge](https://ctf.hiddeninvestigations.net/challenges?challenge=ef7c21c7-ee4c-440e-8355-0dea1db2e75d) archive had SHA-256 `e9d1567aa232756d02f5d0f0b2852f2236bf9e351098532da6300582c1ccfb87`. ReFlection solved its isolated team chain and submitted the accepted flag.
+The [official challenge](https://ctf.hiddeninvestigations.net/challenges?challenge=ef7c21c7-ee4c-440e-8355-0dea1db2e75d) archive had SHA-256 `e9d1567aa232756d02f5d0f0b2852f2236bf9e351098532da6300582c1ccfb87`. We solved our isolated team chain and submitted the accepted flag.
 
 ## Storage collision and proxy upgrade
 

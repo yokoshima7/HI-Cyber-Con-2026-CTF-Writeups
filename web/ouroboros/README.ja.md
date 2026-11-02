@@ -14,6 +14,6 @@ const filename = 'ordinary\u2028' +
 // {data:{title:'T',body:'B',filename}} を POST /api/report/preview へ
 ```
 
-ファイルを読む前に、同じhookで `/app` とルートを一覧し、`flag.txt` の存在を確認した。previewのタイトルに `hiCTF{pr0to_pollution_to_cust0m_new_Function_gadget_rce_ac7288e92a}` が返り、公式画面の `Challenge solved!` とReFlectionの最終公開解答一覧で受理を確認した。
+ファイルを読む前に、同じhookで `/app` とルートを一覧し、`flag.txt` の存在を確認した。previewのタイトルに `hiCTF{pr0to_pollution_to_cust0m_new_Function_gadget_rce_ac7288e92a}` が返り、公式画面の `Challenge solved!` と自チームの最終公開解答一覧で受理を確認した。
 
 別の検証では `constructor.prototype.delimiter` の保存によりEJSの区切り文字が変化した。これはprototype pollutionの存在を示すが、**実際のflag取得には使っていない**。成功した経路は `data.filename` → EJSの `sourceURL` → 巻き上げられた関数宣言である。

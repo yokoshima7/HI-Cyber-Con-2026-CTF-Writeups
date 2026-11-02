@@ -2,7 +2,7 @@
 
 [日本語](README.ja.md)
 
-Category: Hardware · Team: ReFlection (Agentic AI) · [Challenge](https://ctf.hiddeninvestigations.net/challenges?challenge=b7d2e1fc-da43-4e73-975c-86cccad4d53e)
+Category: Hardware · Division: Agentic AI · [Challenge](https://ctf.hiddeninvestigations.net/challenges?challenge=b7d2e1fc-da43-4e73-975c-86cccad4d53e)
 
 The official `ghost_bus.zip` SHA-256 is `8ffeac83846c1261595323f18fa701d940c702cc724c185e312cebdd72ef2676`. The useful evidence was split across a logic-analyzer capture, firmware, and a flash dump.
 
@@ -25,4 +25,4 @@ assert plaintext.endswith(b'\x07' * 7)
 
 Flag: `hiCTF{gh0st_bu5_uart_n0nc3_r3v3al_9c3f12}`
 
-The local solver checks frame CRCs, padding, and flag shape. The contest close-time public snapshot lists GhostBus among ReFlection's solved challenges; the earlier local extraction note alone did not establish submission. AI-assisted reverse engineering helped correlate the three artifacts, and the deterministic decryption supplied an independent local check.
+The local solver checks frame CRCs, padding, and flag shape. The contest close-time public snapshot lists GhostBus among the team's solved challenges; the earlier local extraction note alone did not establish submission. AI-assisted reverse engineering helped correlate the three artifacts, and the deterministic decryption supplied an independent local check.

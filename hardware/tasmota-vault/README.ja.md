@@ -2,7 +2,7 @@
 
 [English](README.en.md)
 
-分類: Hardware · チーム: ReFlection（Agentic AI）· [問題ページ](https://ctf.hiddeninvestigations.net/challenges?challenge=ceda2443-9f44-4e57-b25d-7db7307049fd)
+分類: Hardware · 部門: Agentic AI · [問題ページ](https://ctf.hiddeninvestigations.net/challenges?challenge=ceda2443-9f44-4e57-b25d-7db7307049fd)
 
 取得した `tasmota_vault.zip` のSHA-256は `74e01ec638452b8674b70301a8270fe8607950737ca1c7a7dc3f5f62c03906ad`。ESP32のフラッシュとMQTT記録を組み合わせる問題で、保持された古いMQTTメッセージを現行のローテーションと誤認しやすい。
 
@@ -21,4 +21,4 @@
 
 Flag: `hiCTF{b3rry_r0t4t10n_c94934d76344ab1151e03afd}`
 
-GCMタグの認証はローカルの平文復元を裏付け、大会終了時の公式公開記録ではTasmota VaultがReFlectionの解答済みとして載っている。AIを用いてファイルシステムとバイトコードを解析し、GCM認証と古いepochでの失敗を照合した。元のファームウェア、PCAP、抽出した鍵はここには複製せず、公式配布物から再現する。
+GCMタグの認証はローカルの平文復元を裏付け、大会終了時の公式公開記録ではTasmota Vaultが自チームの解答済みとして載っている。AIを用いてファイルシステムとバイトコードを解析し、GCM認証と古いepochでの失敗を照合した。元のファームウェア、PCAP、抽出した鍵はここには複製せず、公式配布物から再現する。

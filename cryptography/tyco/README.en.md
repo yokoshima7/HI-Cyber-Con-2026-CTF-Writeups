@@ -2,7 +2,7 @@
 
 [日本語](README.ja.md)
 
-The [official Tyco archive](https://ctf.hiddeninvestigations.net/challenges?challenge=2914b4ef-91ea-4270-8965-2d224b7788e0) had SHA-256 `f88f50cb0857595fce5457bc73d756215326093d6a1a478ae552d58460dc99f2`. ReFlection's final team record marks this challenge solved.
+The [official Tyco archive](https://ctf.hiddeninvestigations.net/challenges?challenge=2914b4ef-91ea-4270-8965-2d224b7788e0) had SHA-256 `f88f50cb0857595fce5457bc73d756215326093d6a1a478ae552d58460dc99f2`. Our final official record marks this challenge solved.
 
 ## Related-message RSA
 

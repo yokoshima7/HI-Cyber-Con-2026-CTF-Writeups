@@ -2,7 +2,7 @@
 
 [English](README.en.md)
 
-[公式問題](https://ctf.hiddeninvestigations.net/challenges?challenge=b1002114-481d-4148-b857-416daa358c19) · ReFlection、Agentic AI部門
+[公式問題](https://ctf.hiddeninvestigations.net/challenges?challenge=b1002114-481d-4148-b857-416daa358c19) · Agentic AI部門
 
 公式配布ZIPのSHA-256は `18db37d7930dd005a409d96dee26de3de827c6a3296a3c45e7159dad6050c798` です。13,293件のファイルを展開すると約3.2 GiBになります。答えはETLメッセージ、DPAPI LocalMachineの保管ファイル、NTFSのreparse属性に分かれ、各段階が次の場所を指します。
 
@@ -16,4 +16,4 @@
 hiCTF{alpc_p0rt_c0lloquy_s35s10n_z3r0_syst3npr0f1l3_r3p4r53_buff3r_vort3x}
 ```
 
-PowerShell operational EVTXには生成スクリプトも残っていますが、ETL、レジストリハイブ、vault、MFTから独立にこの値を復元できます。ReFlectionの大会終了時の公開解答済み一覧にも本問が含まれ、ローカルのソルバーが同じ値を再現し、公式画面での受理も記録されています。
+PowerShell operational EVTXには生成スクリプトも残っていますが、ETL、レジストリハイブ、vault、MFTから独立にこの値を復元できます。自チームの大会終了時の公開解答済み一覧にも本問が含まれ、ローカルのソルバーが同じ値を再現し、公式画面での受理も記録されています。

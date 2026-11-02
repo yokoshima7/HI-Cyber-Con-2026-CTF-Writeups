@@ -8,4 +8,4 @@ The checker interprets four 64-bit words as IEEE-754 doubles. The first two are 
 
 The fourth word is the trick. A floating-point comparison treats `+0.0` and `-0.0` as equal, but a later sign-bit test selects the successful branch only for `-0.0`, whose bits are `0x8000000000000000`. Concatenate the four words as little-endian bytes. SHA-256 of those 32 bytes seeds a counter-based SHA-256 stream; XOR the first 42 stream bytes with the ciphertext embedded in the ELF.
 
-The output is `hiCTF{1eee754_s1gn3d_z3r0_1u1p_dr1ft_eps!}`. Its SHA-256 matches the checker's embedded 32-byte digest, and Epsilon Drift appears in ReFlection's official solved set. This explanation and the digest check establish the chosen signed-zero path; merely entering positive zero would not do so.
+The output is `hiCTF{1eee754_s1gn3d_z3r0_1u1p_dr1ft_eps!}`. Its SHA-256 matches the checker's embedded 32-byte digest, and Epsilon Drift appears in the team's official solved set. This explanation and the digest check establish the chosen signed-zero path; merely entering positive zero would not do so.

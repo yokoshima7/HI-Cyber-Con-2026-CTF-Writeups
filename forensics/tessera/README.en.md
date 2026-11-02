@@ -2,7 +2,7 @@
 
 [日本語](README.ja.md)
 
-[Official challenge](https://ctf.hiddeninvestigations.net/challenges?challenge=b1002114-481d-4148-b857-416daa358c19) · ReFlection, Agentic AI division
+[Official challenge](https://ctf.hiddeninvestigations.net/challenges?challenge=b1002114-481d-4148-b857-416daa358c19) · Agentic AI division
 
 The official ZIP has SHA-256 `18db37d7930dd005a409d96dee26de3de827c6a3296a3c45e7159dad6050c798`. Its 13,293 entries expand to roughly 3.2 GiB. The answer is split across an ETL message, a DPAPI LocalMachine vault, and an NTFS reparse attribute. Each stage points to the next.
 
@@ -16,4 +16,4 @@ Remove only the stage labels (`1ist-----`, `--s32nd--`, and `iiiiiiiiiii-3hird--
 hiCTF{alpc_p0rt_c0lloquy_s35s10n_z3r0_syst3npr0f1l3_r3p4r53_buff3r_vort3x}
 ```
 
-The PowerShell operational EVTX includes a generator script that corroborates the construction, but the ETL, registry hives, vault, and MFT independently yield the flag. ReFlection's final public solved list includes TESSERA; the local solver reproduced this exact value and the official UI was recorded as accepting it.
+The PowerShell operational EVTX includes a generator script that corroborates the construction, but the ETL, registry hives, vault, and MFT independently yield the flag. The team's final public solved list includes TESSERA; the local solver reproduced this exact value and the official UI was recorded as accepting it.

@@ -2,7 +2,7 @@
 
 [English](README.en.md)
 
-ReFlection が Agentic AI 部門で解いた問題です。[公式問題](https://ctf.hiddeninvestigations.net/challenges?challenge=cd968c16-2c61-4d27-a215-af9dd1bb34c1)には `challenge.json` と歩行規則があり、配布 ZIP の SHA-256 は `9f8f036fbb3a25341dc58602c9d8c340c786f1ba882095c45bac69b785796f21` でした。
+Agentic AI 部門で解いた問題です。[公式問題](https://ctf.hiddeninvestigations.net/challenges?challenge=cd968c16-2c61-4d27-a215-af9dd1bb34c1)には `challenge.json` と歩行規則があり、配布 ZIP の SHA-256 は `9f8f036fbb3a25341dc58602c9d8c340c786f1ba882095c45bac69b785796f21` でした。
 
 ## 解法
 

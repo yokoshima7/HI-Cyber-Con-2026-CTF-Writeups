@@ -20,6 +20,6 @@ After authentication, `Query Channel` treated its number as a signed 16-bit valu
 | Output | `0x18348` | Call the imported `puts` thunk |
 | Finish | `0xbd61`, `0x183e0` | Align and exit |
 
-An initial direct `puts` call near `heap+0x18` crashed. Pivoting again to `heap+0x2000` left enough stack room for the call. A single telemetry write and `Sync Channel -2` then printed `hiCTF{n0_g4dg3ts_n0_sh3llc0d3_jusT_p1v0t_d33p3r_952b589bc3}` on the team's instance. The official UI accepted it, and Project Mangoo appears in ReFlection's final public solved set.
+An initial direct `puts` call near `heap+0x18` crashed. Pivoting again to `heap+0x2000` left enough stack room for the call. A single telemetry write and `Sync Channel -2` then printed `hiCTF{n0_g4dg3ts_n0_sh3llc0d3_jusT_p1v0t_d33p3r_952b589bc3}` on the team's instance. The official UI accepted it, and Project Mangoo appears in the team's final public solved set.
 
 Official ZIP SHA-256: `6ec89ce54df8cfca960ef028270e674688a0fa10633e9ffa10d48c4558e91a3f`. The shipped `MANGOO_ROOT_KEY=hiCTF{fake_flag_for_local_testing}` is a local fixture. The offsets above were verified in the supplied PE; a local Wine execution was not performed for this solve.

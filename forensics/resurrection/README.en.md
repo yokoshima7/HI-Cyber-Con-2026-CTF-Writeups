@@ -2,7 +2,7 @@
 
 [日本語](README.ja.md)
 
-[Official challenge](https://ctf.hiddeninvestigations.net/challenges?challenge=ed0cc69e-48ea-49a0-bcda-1d538e752423) · ReFlection, Agentic AI division
+[Official challenge](https://ctf.hiddeninvestigations.net/challenges?challenge=ed0cc69e-48ea-49a0-bcda-1d538e752423) · Agentic AI division
 
 The official ZIP has SHA-256 `46834f01b2a123bfdc10ec9d6d79a0d73347597922d282388bab0b9d399e0643`. It contains a sparse 1 GiB raw disk image. The primary MBR, GPT, and NTFS boot sector are zeroed, but the backup GPT at the final LBA and backup NTFS boot sector identify the partition beginning at LBA 32768 and its `$MFT` at LCN 85845. The backup GPT's partition-entry CRC field was overwritten; the actual partition-array CRC is `0x8f6e0090`.
 
@@ -22,4 +22,4 @@ The unusual prefixes `f!r5t--`, `53c0nd--`, `th1jd--`, `f01_1rth--`, and `51f7h-
 hiCTF{p3_0v3rl4y_71m3d473574mp_k3y_n7f5_runl157_cl5_g30m37ry_7r4ns4c710n_n4n0_f1l371m3_3v7x_b1n4ry_xml_70k3n5_b17m4p_orph4n_v01d_r35urr3c710n}
 ```
 
-The important distinction is that the final fragment is encoded in the *positions* of allocated but unmapped clusters; reading those zero-filled clusters as file content gives nothing. The local decoder used bounded reads, with the largest individual read only 69,632 bytes. ReFlection's final public solved list includes RESURRECTION, and the reconstructed flag matches the team's recorded accepted answer.
+The important distinction is that the final fragment is encoded in the *positions* of allocated but unmapped clusters; reading those zero-filled clusters as file content gives nothing. The local decoder used bounded reads, with the largest individual read only 69,632 bytes. The team's final public solved list includes RESURRECTION, and the reconstructed flag matches the team's recorded accepted answer.

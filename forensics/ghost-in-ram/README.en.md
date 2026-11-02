@@ -2,7 +2,7 @@
 
 [日本語](README.ja.md)
 
-[Official challenge](https://ctf.hiddeninvestigations.net/challenges?challenge=b9a2cff7-7dd1-4702-a125-a2ce7eccae11) · ReFlection, Agentic AI division
+[Official challenge](https://ctf.hiddeninvestigations.net/challenges?challenge=b9a2cff7-7dd1-4702-a125-a2ce7eccae11) · Agentic AI division
 
 The official ZIP matches SHA-256 `5d93dd23e89876a4d7caead1dca17121ae36a17a29941a6c0bd75fccf13f020e`. It contains a roughly 2 GiB x86-64 Linux memory image. Its guest banner identifies Kali Linux `7.0.12+kali-cloud-amd64`. A Volatility 3 profile made from that exact kernel's debug BTF and `System.map` allowed process and memory-map inspection.
 
@@ -29,4 +29,4 @@ assert n == 30
 print(bytes(b ^ 0x5a for b in vma[0xf0:0xf0 + n]).decode())
 ```
 
-This prints `hiCTF{gh0st_pr0c3ss_rng_pwn3d}`. Literal flag-shaped strings elsewhere in the dump (`hiCTF{stop_here}` and `hiCTF{d3bug_m3}`) occur in decoy contexts and were not submitted. ReFlection's final public solved list includes Ghost in RAM; the exact flag also matches this memory reconstruction.
+This prints `hiCTF{gh0st_pr0c3ss_rng_pwn3d}`. Literal flag-shaped strings elsewhere in the dump (`hiCTF{stop_here}` and `hiCTF{d3bug_m3}`) occur in decoy contexts and were not submitted. The team's final public solved list includes Ghost in RAM; the exact flag also matches this memory reconstruction.

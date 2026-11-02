@@ -2,7 +2,7 @@
 
 [English](README.en.md)
 
-[公式問題](https://ctf.hiddeninvestigations.net/challenges?challenge=b9a2cff7-7dd1-4702-a125-a2ce7eccae11) · ReFlection、Agentic AI部門
+[公式問題](https://ctf.hiddeninvestigations.net/challenges?challenge=b9a2cff7-7dd1-4702-a125-a2ce7eccae11) · Agentic AI部門
 
 公式配布ZIPのSHA-256は `5d93dd23e89876a4d7caead1dca17121ae36a17a29941a6c0bd75fccf13f020e` です。中身は約2 GiBのx86-64 Linuxメモリイメージで、ゲストのバナーはKali Linux `7.0.12+kali-cloud-amd64` を示します。この正確なカーネルのデバッグ用BTFと `System.map` からVolatility 3のプロファイルを作り、プロセスとメモリマップを調べました。
 
@@ -29,4 +29,4 @@ assert n == 30
 print(bytes(b ^ 0x5a for b in vma[0xf0:0xf0 + n]).decode())
 ```
 
-出力は `hiCTF{gh0st_pr0c3ss_rng_pwn3d}` です。メモリ中に平文で見える `hiCTF{stop_here}` と `hiCTF{d3bug_m3}` は囮の文脈にあり、提出していません。ReFlectionの大会終了時の公開解答済み一覧にも本問が含まれ、この値はメモリからの復元結果とも一致します。
+出力は `hiCTF{gh0st_pr0c3ss_rng_pwn3d}` です。メモリ中に平文で見える `hiCTF{stop_here}` と `hiCTF{d3bug_m3}` は囮の文脈にあり、提出していません。自チームの大会終了時の公開解答済み一覧にも本問が含まれ、この値はメモリからの復元結果とも一致します。

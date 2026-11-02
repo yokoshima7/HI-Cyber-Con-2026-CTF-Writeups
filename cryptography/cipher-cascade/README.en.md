@@ -2,7 +2,7 @@
 
 [日本語](README.ja.md)
 
-ReFlection's solution to the [official challenge](https://ctf.hiddeninvestigations.net/challenges?challenge=5ef939e5-6535-482e-9f67-b59e96a22ceb) was accepted by the platform.
+The team's solution to the [official challenge](https://ctf.hiddeninvestigations.net/challenges?challenge=5ef939e5-6535-482e-9f67-b59e96a22ceb) was accepted by the platform.
 
 ## Decoding
 

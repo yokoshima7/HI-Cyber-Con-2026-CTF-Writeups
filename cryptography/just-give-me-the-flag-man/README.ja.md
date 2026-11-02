@@ -2,7 +2,7 @@
 
 [English](README.en.md)
 
-[公式配布物](https://ctf.hiddeninvestigations.net/challenges?challenge=0c29db29-bbf3-4dd1-b07a-6e5f05db558f)の SHA-256 は `47250d4a65be0eb4ff5e8b4c31ae2120f95bb086f301ebb2467f7640614952c0` です。ReFlection の提出は公式に受理されました。
+[公式配布物](https://ctf.hiddeninvestigations.net/challenges?challenge=0c29db29-bbf3-4dd1-b07a-6e5f05db558f)の SHA-256 は `47250d4a65be0eb4ff5e8b4c31ae2120f95bb086f301ebb2467f7640614952c0` です。提出した解答は公式に受理されました。
 
 ## 復号の鎖
 

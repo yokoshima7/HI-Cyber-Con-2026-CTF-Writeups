@@ -2,7 +2,7 @@
 
 [English](README.en.md)
 
-ReFlection は[公式問題](https://ctf.hiddeninvestigations.net/challenges?challenge=c2a91af0-0164-4988-acff-92cc455c09c9)の署名済み取引アーカイブを解析しました。ZIP の SHA-256 は `9397090fc7419f8c581199533ee42ec3786e82ddcf0bd302f05c63d75542f957` です。
+[公式問題](https://ctf.hiddeninvestigations.net/challenges?challenge=c2a91af0-0164-4988-acff-92cc455c09c9)の署名済み取引アーカイブを解析しました。ZIP の SHA-256 は `9397090fc7419f8c581199533ee42ec3786e82ddcf0bd302f05c63d75542f957` です。
 
 ## 復元手順
 

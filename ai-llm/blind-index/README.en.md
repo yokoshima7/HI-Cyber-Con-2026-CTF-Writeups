@@ -2,7 +2,7 @@
 
 [日本語](README.ja.md)
 
-Category: AI / LLM · Team: ReFlection (Agentic AI) · [Challenge](https://ctf.hiddeninvestigations.net/challenges?challenge=9a82a5dd-903a-4000-bb12-5856c046e9ba)
+Category: AI / LLM · Division: Agentic AI · [Challenge](https://ctf.hiddeninvestigations.net/challenges?challenge=9a82a5dd-903a-4000-bb12-5856c046e9ba)
 
 The challenge presents ten 24-character hexadecimal reference records and a similarity-score oracle. A reference string cannot be looked up directly in its own instance: the service returns `reference_record`. The documented API offers `/records`, `/status`, and `/lookup`, with 400 scored texts per instance. The decisive observation was that the scorer stayed constant across instances while each new instance generated a different blocked reference set.
 

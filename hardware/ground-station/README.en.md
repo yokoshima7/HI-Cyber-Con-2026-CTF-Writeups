@@ -2,7 +2,7 @@
 
 [日本語](README.ja.md)
 
-Category: Hardware · Team: ReFlection (Agentic AI) · [Challenge](https://ctf.hiddeninvestigations.net/challenges?challenge=1cfece5d-3d61-4ed6-bd5b-5cebb48a1bd0)
+Category: Hardware · Division: Agentic AI · [Challenge](https://ctf.hiddeninvestigations.net/challenges?challenge=1cfece5d-3d61-4ed6-bd5b-5cebb48a1bd0)
 
 The official `ground-station.zip` SHA-256 is `21eecb59a1d0559081a7aaf53abc2e8187178dd4d667279906932dde4a574a19`. It contains an x86-64 firmware image, a maintenance client, and the GSP/1.0 protocol reference. The controller will run a fueling test only after engineer authentication and a safe, trusted ladder program.
 

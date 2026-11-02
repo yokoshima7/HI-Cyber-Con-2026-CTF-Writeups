@@ -2,7 +2,7 @@
 
 [日本語](README.ja.md)
 
-[Official challenge](https://ctf.hiddeninvestigations.net/challenges?challenge=46aa0afb-e480-4614-8634-528586911f7d) · ReFlection, Agentic AI division
+[Official challenge](https://ctf.hiddeninvestigations.net/challenges?challenge=46aa0afb-e480-4614-8634-528586911f7d) · Agentic AI division
 
 The supplied ZIP has SHA-256 `15c7f337f5eae52865fbece148237ca5f01b2f4fa703d64a54c4f35a7bb40225` and contains a 152,240,093-byte PCAP. The goal was to identify the authoritative production transfer among several plausible, authenticated archives. A valid decryption tag by itself was insufficient: all three archive candidates decrypted successfully.
 
@@ -24,4 +24,4 @@ Unmask the four selected fragments, apply the SDK's `final_key` schedule using t
 hiCTF{c8c46fdbd6e5e4eacabfba53a156ff9ab10567f2}
 ```
 
-The official challenge UI displayed `Flag correct!` and `Challenge solved!` for this value, and ReFlection's final public solved list includes The Quiet Divide. The local solver reran after submission and found exactly one eligible transfer. Firmware, checkpoint, and seal contents were linked through captured hashes, the verified custody chain, and authenticated decryption; some separate signature domains outside the public SDK were not independently verified.
+The official challenge UI displayed `Flag correct!` and `Challenge solved!` for this value, and the team's final public solved list includes The Quiet Divide. The local solver reran after submission and found exactly one eligible transfer. Firmware, checkpoint, and seal contents were linked through captured hashes, the verified custody chain, and authenticated decryption; some separate signature domains outside the public SDK were not independently verified.

@@ -2,7 +2,7 @@
 
 [English](README.en.md)
 
-分類: Hardware · チーム: ReFlection（Agentic AI）· [問題ページ](https://ctf.hiddeninvestigations.net/challenges?challenge=37ad0ee5-5532-475b-ac7b-00a49ba6c7bd)
+分類: Hardware · 部門: Agentic AI · [問題ページ](https://ctf.hiddeninvestigations.net/challenges?challenge=37ad0ee5-5532-475b-ac7b-00a49ba6c7bd)
 
 配布ZIPのSHA-256は `ef94f82b12ebfb1640f9e52d6a74c6f514c4ea718bc52f7c7c05aaea3aeb4a59`。ESP32-C3の取得データから認証材料を復元し、検証サービスのチャレンジに応答する問題だった。重要なのはフラッシュ暗号化とNVSエントリの暗号化を区別すること。NVSページヘッダーは読めるが、エントリは別の鍵で暗号化されていた。
 
@@ -20,7 +20,7 @@
        b"C3VAULT-AUTH-V2\0" + fresh_challenge + device_id)
    ```
 
-5. 計算した32バイトの `auth` を16進64文字として自チームの検証サービスに送ると、`VAULT OPENED` とフラグが返った。大会終了時の公式公開スナップショットにも、ReFlectionの解答済み問題としてC3 Vaultが載っている。
+5. 計算した32バイトの `auth` を16進64文字として自チームの検証サービスに送ると、`VAULT OPENED` とフラグが返った。大会終了時の公式公開スナップショットにも、自チームの解答済み問題としてC3 Vaultが載っている。
 
 Flag: `hiCTF{efus3_cl34r_jt4g_0p3n_nv5_34af9568e6}`
 

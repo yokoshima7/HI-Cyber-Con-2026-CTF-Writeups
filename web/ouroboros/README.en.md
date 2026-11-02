@@ -14,6 +14,6 @@ const filename = 'ordinary\u2028' +
 // Send {data:{title:'T',body:'B',filename}} to POST /api/report/preview
 ```
 
-Before the file read, the same confirmed hook listed `/app` and the root directory, where `flag.txt` was present. The preview then returned `hiCTF{pr0to_pollution_to_cust0m_new_Function_gadget_rce_ac7288e92a}` in the title. The official challenge page showed `Challenge solved!`; Ouroboros is in ReFlection's final public solved set.
+Before the file read, the same confirmed hook listed `/app` and the root directory, where `flag.txt` was present. The preview then returned `hiCTF{pr0to_pollution_to_cust0m_new_Function_gadget_rce_ac7288e92a}` in the title. The official challenge page showed `Challenge solved!`; Ouroboros is in the team's final public solved set.
 
 Separately, saving a nested `constructor.prototype.delimiter` changed EJS delimiter behavior, demonstrating prototype pollution. That observation was **not** the step that read the flag. The successful path was the direct `data.filename` → EJS `sourceURL` → hoisted function chain. Many other EJS option probes produced no effect and are not prerequisites for this solution.

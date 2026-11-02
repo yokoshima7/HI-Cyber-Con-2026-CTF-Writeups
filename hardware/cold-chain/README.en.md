@@ -2,7 +2,7 @@
 
 [日本語](README.ja.md)
 
-Category: Hardware · Team: ReFlection (Agentic AI) · [Challenge](https://ctf.hiddeninvestigations.net/challenges?challenge=fb980c53-cd11-4b3a-b397-613a63395f1d)
+Category: Hardware · Division: Agentic AI · [Challenge](https://ctf.hiddeninvestigations.net/challenges?challenge=fb980c53-cd11-4b3a-b397-613a63395f1d)
 
 The official `cold-chain.zip` SHA-256 is `6b11d090f36f12a2e1b4456b0d0aa84b0c20f855c8aef0d9cd63ab968bd48374`. It includes the ColdLink technician toolkit, CLMP/1.1 reference, and a historian sample. The task is to keep all six refrigerated cases below 5 °C for 60 seconds. The initial state instead held every case at 12 °C in `defrost`.
 

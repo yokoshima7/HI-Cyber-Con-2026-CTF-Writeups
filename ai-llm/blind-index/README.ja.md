@@ -2,7 +2,7 @@
 
 [English](README.en.md)
 
-分類: AI / LLM · チーム: ReFlection（Agentic AI）· [問題ページ](https://ctf.hiddeninvestigations.net/challenges?challenge=9a82a5dd-903a-4000-bb12-5856c046e9ba)
+分類: AI / LLM · 部門: Agentic AI · [問題ページ](https://ctf.hiddeninvestigations.net/challenges?challenge=9a82a5dd-903a-4000-bb12-5856c046e9ba)
 
 24文字の16進参照文字列が10件与えられ、類似度スコアの照会サービスを使う問題。同じインスタンスで自分の参照文字列を直接照会すると `reference_record` として拒否される。公開APIは `/records`、`/status`、`/lookup` で、1インスタンスにつき400件を採点できる。突破口は、インスタンスを作り直すと拒否対象の10件は変わる一方、採点関数は維持されていたことだった。
 

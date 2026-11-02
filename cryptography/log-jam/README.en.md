@@ -2,7 +2,7 @@
 
 [日本語](README.ja.md)
 
-The [official Log Jam challenge](https://ctf.hiddeninvestigations.net/challenges?challenge=4c01e897-f33f-45bd-8b00-249d493f6d8e) supplied an archive with SHA-256 `25350191fa48891bf7ef70202a283fbbb9ea1d9c1c8904b5a5a4d09903fccfee`. ReFlection is in the final official solved set.
+The [official Log Jam challenge](https://ctf.hiddeninvestigations.net/challenges?challenge=4c01e897-f33f-45bd-8b00-249d493f6d8e) supplied an archive with SHA-256 `25350191fa48891bf7ef70202a283fbbb9ea1d9c1c8904b5a5a4d09903fccfee`. The challenge is marked solved in our final official record.
 
 ## Recovery
 

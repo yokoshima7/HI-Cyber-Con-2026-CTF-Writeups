@@ -2,7 +2,7 @@
 
 [English](README.en.md)
 
-分類: Hardware · チーム: ReFlection（Agentic AI）· [問題ページ](https://ctf.hiddeninvestigations.net/challenges?challenge=1cfece5d-3d61-4ed6-bd5b-5cebb48a1bd0)
+分類: Hardware · 部門: Agentic AI · [問題ページ](https://ctf.hiddeninvestigations.net/challenges?challenge=1cfece5d-3d61-4ed6-bd5b-5cebb48a1bd0)
 
 公式 `ground-station.zip` のSHA-256は `21eecb59a1d0559081a7aaf53abc2e8187178dd4d667279906932dde4a574a19`。x86-64のファームウェア、保守クライアント、GSP/1.0の仕様書が入っている。燃料充填テストには技術者認証と安全かつ信頼済みのラダープログラムが必要だった。
 

@@ -2,7 +2,7 @@
 
 [English](README.en.md)
 
-分類: Hardware · チーム: ReFlection（Agentic AI）· [問題ページ](https://ctf.hiddeninvestigations.net/challenges?challenge=fb980c53-cd11-4b3a-b397-613a63395f1d)
+分類: Hardware · 部門: Agentic AI · [問題ページ](https://ctf.hiddeninvestigations.net/challenges?challenge=fb980c53-cd11-4b3a-b397-613a63395f1d)
 
 公式 `cold-chain.zip` のSHA-256は `6b11d090f36f12a2e1b4456b0d0aa84b0c20f855c8aef0d9cd63ab968bd48374`。ColdLinkの技術者用ツール、CLMP/1.1仕様、historianのサンプルが入っている。目標は6台の冷蔵ケースをすべて5°C未満に60秒間保つことだが、初期状態では全台が12°Cで `defrost` になっていた。
 

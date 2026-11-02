@@ -2,7 +2,7 @@
 
 [日本語](README.ja.md)
 
-ReFlection solved this [offline blockchain challenge](https://ctf.hiddeninvestigations.net/challenges?challenge=be13630e-cdb5-4dbb-ae6b-954cc51edf08) from the signed transaction archive (SHA-256 `aefb1f1300ca8758ba53fa17ae485a06ed1d48afd5bca941c305a23210dc78fd`). The official UI accepted the reconstructed flag.
+We solved this [offline blockchain challenge](https://ctf.hiddeninvestigations.net/challenges?challenge=be13630e-cdb5-4dbb-ae6b-954cc51edf08) from the signed transaction archive (SHA-256 `aefb1f1300ca8758ba53fa17ae485a06ed1d48afd5bca941c305a23210dc78fd`). The official UI accepted the reconstructed flag.
 
 ## Trace the archived state, not only final storage
 

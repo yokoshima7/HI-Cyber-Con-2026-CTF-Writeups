@@ -2,7 +2,7 @@
 
 [English](README.en.md)
 
-[公式問題](https://ctf.hiddeninvestigations.net/challenges?challenge=61784143-ff04-444c-868d-faa4c53939e5)の配布 ZIP の SHA-256 は `5a5316e688fdd9ee3ae30d85a5659a52d0a5c0adf74ac71ba95583467ac256b3` でした。ReFlection の提出は公式に受理されています。
+[公式問題](https://ctf.hiddeninvestigations.net/challenges?challenge=61784143-ff04-444c-868d-faa4c53939e5)の配布 ZIP の SHA-256 は `5a5316e688fdd9ee3ae30d85a5659a52d0a5c0adf74ac71ba95583467ac256b3` でした。提出した解答は公式に受理されています。
 
 ## 解法と検証
 

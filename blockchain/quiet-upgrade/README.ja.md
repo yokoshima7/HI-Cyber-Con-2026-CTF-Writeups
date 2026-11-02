@@ -2,7 +2,7 @@
 
 [English](README.en.md)
 
-[公式問題](https://ctf.hiddeninvestigations.net/challenges?challenge=ef7c21c7-ee4c-440e-8355-0dea1db2e75d)の配布 ZIP の SHA-256 は `e9d1567aa232756d02f5d0f0b2852f2236bf9e351098532da6300582c1ccfb87` です。ReFlection は隔離された自チームのチェーンを解き、フラグは公式に受理されました。
+[公式問題](https://ctf.hiddeninvestigations.net/challenges?challenge=ef7c21c7-ee4c-440e-8355-0dea1db2e75d)の配布 ZIP の SHA-256 は `e9d1567aa232756d02f5d0f0b2852f2236bf9e351098532da6300582c1ccfb87` です。隔離された自チームのチェーンを解き、フラグは公式に受理されました。
 
 ## ストレージ衝突と proxy 更新
 

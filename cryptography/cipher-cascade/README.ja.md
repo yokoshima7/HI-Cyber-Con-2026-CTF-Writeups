@@ -2,7 +2,7 @@
 
 [English](README.en.md)
 
-[公式問題](https://ctf.hiddeninvestigations.net/challenges?challenge=5ef939e5-6535-482e-9f67-b59e96a22ceb)に対する ReFlection の解答は、公式プラットフォームで受理されました。
+[公式問題](https://ctf.hiddeninvestigations.net/challenges?challenge=5ef939e5-6535-482e-9f67-b59e96a22ceb)に対して提出した解答は、公式プラットフォームで受理されました。
 
 ## 復号順序
 

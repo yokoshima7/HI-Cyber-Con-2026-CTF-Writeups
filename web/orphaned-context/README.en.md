@@ -21,4 +21,4 @@ The challenge description referred to an investigator handout, but the public ch
 
 6. Preview again with the original descriptor. It read the incident's `seal` from the relay's **in-memory diagnostic map**. This was not operating-system shell execution.
 
-The seal text was `hiCTF{local_dev_fixture_not_a_real_flag_9ec7b16d04}`. Its name made it look like a fixture, so the team submitted it once for validation. The official page showed `Challenge solved!`, and Orphaned Context appears in ReFlection's final public solved set. The exact per-instance descriptor and note IDs are intentionally omitted: they are generated during the run and should be taken from each response.
+The seal text was `hiCTF{local_dev_fixture_not_a_real_flag_9ec7b16d04}`. Its name made it look like a fixture, so the team submitted it once for validation. The official page showed `Challenge solved!`, and Orphaned Context appears in the team's final public solved set. The exact per-instance descriptor and note IDs are intentionally omitted: they are generated during the run and should be taken from each response.

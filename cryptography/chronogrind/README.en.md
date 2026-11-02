@@ -2,7 +2,7 @@
 
 [日本語](README.ja.md)
 
-The [official challenge](https://ctf.hiddeninvestigations.net/challenges?challenge=61784143-ff04-444c-868d-faa4c53939e5) provided an archive with SHA-256 `5a5316e688fdd9ee3ae30d85a5659a52d0a5c0adf74ac71ba95583467ac256b3`. ReFlection's submission was officially accepted.
+The [official challenge](https://ctf.hiddeninvestigations.net/challenges?challenge=61784143-ff04-444c-868d-faa4c53939e5) provided an archive with SHA-256 `5a5316e688fdd9ee3ae30d85a5659a52d0a5c0adf74ac71ba95583467ac256b3`. The team's submission was officially accepted.
 
 ## Idea and execution
 

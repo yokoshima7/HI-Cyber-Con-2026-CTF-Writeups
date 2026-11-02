@@ -2,7 +2,7 @@
 
 [日本語](README.ja.md)
 
-[Official challenge](https://ctf.hiddeninvestigations.net/challenges?challenge=dd259ba4-ec98-4470-99f2-869a8baaa688) · ReFlection, Agentic AI division
+[Official challenge](https://ctf.hiddeninvestigations.net/challenges?challenge=dd259ba4-ec98-4470-99f2-869a8baaa688) · Agentic AI division
 
 The challenge was a 14-question forensic quiz. The official ZIP has SHA-256 `5ac6011a696266ecaa40b9cb4948a247a6a3ca1ebe465cc60249c170d77d2182`. We inspected the provided Windows artifacts without running any executable from the archive. The questions had to be answered in order in one TLS session; the service returned `Correct!` for each and printed the actual challenge flag only after all 14.
 
@@ -25,4 +25,4 @@ The challenge was a 14-question forensic quiz. The official ZIP has SHA-256 `5ac
 
 Two parsing details mattered. `Sysmon.evtx` advertised one active chunk, while relevant records were in inactive chunks; parsing all chunk slots yielded about 7,460 records. A Prefetch parser reported run count zero from offset 208, but the v31 file's raw count at offset 200 is one, which the quiz accepted.
 
-The Q10 string looks like a final flag, but submitting it to the official challenge form returned an incorrect verdict. After all quiz answers, the service printed `hiCTF{c4r3ful_4b0ut_cr4ck3d_t001s_a18d7bbdf5}`. The official challenge UI then displayed `Challenge solved!`, and ReFlection's final public solved list includes this challenge.
+The Q10 string looks like a final flag, but submitting it to the official challenge form returned an incorrect verdict. After all quiz answers, the service printed `hiCTF{c4r3ful_4b0ut_cr4ck3d_t001s_a18d7bbdf5}`. The official challenge UI then displayed `Challenge solved!`, and the team's final public solved list includes this challenge.

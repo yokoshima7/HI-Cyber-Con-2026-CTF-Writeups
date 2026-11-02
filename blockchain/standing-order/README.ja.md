@@ -2,7 +2,7 @@
 
 [English](README.en.md)
 
-ReFlection は[公式問題](https://ctf.hiddeninvestigations.net/challenges?challenge=4b0623b2-54b1-412a-8407-cc469bf7f490)を隔離された自チームの private chain で解きました。配布 ZIP の SHA-256 は `1d8cc1775f249e3ad8c8d1afc3ebff3e065e7dc238384152ba84992d7c51d823` です。
+[公式問題](https://ctf.hiddeninvestigations.net/challenges?challenge=4b0623b2-54b1-412a-8407-cc469bf7f490)を隔離された自チームの private chain で解きました。配布 ZIP の SHA-256 は `1d8cc1775f249e3ad8c8d1afc3ebff3e065e7dc238384152ba84992d7c51d823` です。
 
 ## 使用済みになる前に voucher を再利用
 

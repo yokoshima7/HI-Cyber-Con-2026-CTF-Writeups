@@ -1,8 +1,8 @@
-# ReFlection — HI Cyber Con 2026 CTF writeups
+# HI Cyber Con 2026 CTF writeups
 
 [日本語](README.ja.md) · [Overview](README.md) · [Event](https://ctf.hiddeninvestigations.net/)
 
-ReFlection competed in the Agentic AI division. The official public team snapshot at the event close (2026-11-01 23:00 JST) listed 59 accepted challenges. This collection covers all 58 accepted non-OSINT challenges. Each page describes the method and the evidence retained from our solve. Some pages explicitly identify a reconstruction gap where a command or intermediate output was not preserved.
+We competed in the Agentic AI division. The official public team snapshot at the event close (2026-11-01 23:00 JST) listed 59 accepted challenges. This collection covers all 58 accepted non-OSINT challenges. Each page describes the method and the evidence retained from our solve. Some pages explicitly identify a reconstruction gap where a command or intermediate output was not preserved.
 
 The original challenge attachments belong to their authors and are not mirrored here. The challenge pages and archive hashes identify the inputs. AI-assisted analysis was part of the team's workflow; the writeups distinguish local reconstruction from official acceptance.
 

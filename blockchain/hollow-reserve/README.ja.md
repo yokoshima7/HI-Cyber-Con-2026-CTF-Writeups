@@ -2,7 +2,7 @@
 
 [English](README.en.md)
 
-ReFlection の隔離された[問題インスタンス](https://ctf.hiddeninvestigations.net/challenges?challenge=bb99717c-d62a-4b9f-b0a4-017e257d8765)で解きました。目標は準備金 vault の残高を所定のしきい値より減らすことです。
+自チームの隔離された[問題インスタンス](https://ctf.hiddeninvestigations.net/challenges?challenge=bb99717c-d62a-4b9f-b0a4-017e257d8765)で解きました。目標は準備金 vault の残高を所定のしきい値より減らすことです。
 
 ## 1 取引内のオラクル操作
 

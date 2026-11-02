@@ -2,7 +2,7 @@
 
 [日本語](README.ja.md)
 
-ReFlection solved this challenge in the Agentic AI division. The [official challenge](https://ctf.hiddeninvestigations.net/challenges?challenge=cd968c16-2c61-4d27-a215-af9dd1bb34c1) supplied `challenge.json` and a precise walk specification; the archive SHA-256 was `9f8f036fbb3a25341dc58602c9d8c340c786f1ba882095c45bac69b785796f21`.
+We solved this challenge in the Agentic AI division. The [official challenge](https://ctf.hiddeninvestigations.net/challenges?challenge=cd968c16-2c61-4d27-a215-af9dd1bb34c1) supplied `challenge.json` and a precise walk specification; the archive SHA-256 was `9f8f036fbb3a25341dc58602c9d8c340c786f1ba882095c45bac69b785796f21`.
 
 ## Idea
 

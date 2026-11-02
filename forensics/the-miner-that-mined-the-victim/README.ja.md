@@ -2,7 +2,7 @@
 
 [English](README.en.md)
 
-[公式問題](https://ctf.hiddeninvestigations.net/challenges?challenge=dd259ba4-ec98-4470-99f2-869a8baaa688) · ReFlection、Agentic AI部門
+[公式問題](https://ctf.hiddeninvestigations.net/challenges?challenge=dd259ba4-ec98-4470-99f2-869a8baaa688) · Agentic AI部門
 
 14問に順番に答えるフォレンジッククイズです。公式配布ZIPのSHA-256は `5ac6011a696266ecaa40b9cb4948a247a6a3ca1ebe465cc60249c170d77d2182` でした。配布物の実行ファイルは起動せず、Windowsの記録類を調べました。TLS接続1回の中で14問すべてに答え、各回答に `Correct!`、最後に本当のフラグが返りました。
 
@@ -25,4 +25,4 @@
 
 解析上の注意点は2つです。`Sysmon.evtx` のヘッダーはアクティブなチャンクを1個と示しますが、必要な記録は非アクティブなチャンクにもありました。全チャンクスロットを解析すると約7,460件の記録が得られます。また、あるPrefetchパーサーはオフセット208を実行回数としてゼロを返しましたが、このv31ファイルの生のオフセット200には1があり、クイズも1を受理しました。
 
-10問目の文字列を公式のフラグ欄に入れたときは不正解でした。14問を正しく終えると、サービスが `hiCTF{c4r3ful_4b0ut_cr4ck3d_t001s_a18d7bbdf5}` を返しました。その後、公式問題画面の `Challenge solved!` とReFlectionの最終公開解答済み一覧でも受理を確認しています。
+10問目の文字列を公式のフラグ欄に入れたときは不正解でした。14問を正しく終えると、サービスが `hiCTF{c4r3ful_4b0ut_cr4ck3d_t001s_a18d7bbdf5}` を返しました。その後、公式問題画面の `Challenge solved!` と自チームの最終公開解答済み一覧でも受理を確認しています。

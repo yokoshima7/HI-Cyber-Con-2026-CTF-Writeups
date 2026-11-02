@@ -8,7 +8,7 @@
 
 `nvSeed` の再現で重要だった修正は、まず `seed = SHA256(vault.bin || b"VK-SEED-v1")` を求め、行番号0～15のそれぞれについて `seed || LE32(row)` を1回ずつハッシュし、16個のダイジェストをすべて保存すること。得られた512バイトをリトルエンディアン32ビット値128個に分割する。[cell_mixer.py](cell_mixer.py) と [derive_program.py](derive_program.py) でseed、unseal、mixerの経路を再現できる。復元したVMプログラムのSHA-256は `ffd80cdd77c649e287672fab4ae72eaadb1ab242531e3440d9f4736ecca618ae`。
 
-VM先頭の1億回のレジスタループはCで高速化し、残り358命令をPC `0x58f` の成功終了まで解釈した。出力の先頭51バイトをnativeの読み取り専用配列2つとself-mix hashでXORすると `hiCTF{!!I_10v3_4ndr0!d_m4n_m4k!ng_th3m_f331_g0Od!!}` となる。`SHA256(b"VK-TAG-2026" + candidate)[:16]` は埋め込み値 `62672db15a0b6a4793b351292f29a0b3` に一致する。大会終了時のReFlection公式解答済み一覧にもVaultKeeperが含まれる。
+VM先頭の1億回のレジスタループはCで高速化し、残り358命令をPC `0x58f` の成功終了まで解釈した。出力の先頭51バイトをnativeの読み取り専用配列2つとself-mix hashでXORすると `hiCTF{!!I_10v3_4ndr0!d_m4n_m4k!ng_th3m_f331_g0Od!!}` となる。`SHA256(b"VK-TAG-2026" + candidate)[:16]` は埋め込み値 `62672db15a0b6a4793b351292f29a0b3` に一致する。大会終了時の自チームの公式解答済み一覧にもVaultKeeperが含まれる。
 
 自作の復元コード5本は [cell_mixer.py](cell_mixer.py)、[derive_program.py](derive_program.py)、[emulate_vm.py](emulate_vm.py)、[final_check.py](final_check.py)、[vm_hot.c](vm_hot.c)。Python側は標準ライブラリのみを使い、1億回ループの補助コードにはCコンパイラが必要となる。APK内のx86-64 nativeライブラリは読み取るだけで、実行はしない。
 

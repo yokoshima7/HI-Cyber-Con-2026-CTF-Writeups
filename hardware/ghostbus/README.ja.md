@@ -2,7 +2,7 @@
 
 [English](README.en.md)
 
-分類: Hardware · チーム: ReFlection（Agentic AI）· [問題ページ](https://ctf.hiddeninvestigations.net/challenges?challenge=b7d2e1fc-da43-4e73-975c-86cccad4d53e)
+分類: Hardware · 部門: Agentic AI · [問題ページ](https://ctf.hiddeninvestigations.net/challenges?challenge=b7d2e1fc-da43-4e73-975c-86cccad4d53e)
 
 公式 `ghost_bus.zip` のSHA-256は `8ffeac83846c1261595323f18fa701d940c702cc724c185e312cebdd72ef2676`。ロジックアナライザの記録、ファームウェア、フラッシュダンプを突き合わせる問題だった。
 
@@ -25,4 +25,4 @@ assert plaintext.endswith(b'\x07' * 7)
 
 Flag: `hiCTF{gh0st_bu5_uart_n0nc3_r3v3al_9c3f12}`
 
-ローカルのsolverはフレームCRC、パディング、フラグ形式を検査する。初期の解析メモでは提出未確認だったが、大会終了時の公式公開スナップショットにはGhostBusがReFlectionの解答済み問題として含まれる。AIを使った逆解析で三つの素材を結び、決定的な復号結果をローカルでも確認した。
+ローカルのsolverはフレームCRC、パディング、フラグ形式を検査する。初期の解析メモでは提出未確認だったが、大会終了時の公式公開スナップショットにはGhostBusが自チームの解答済み問題として含まれる。AIを使った逆解析で三つの素材を結び、決定的な復号結果をローカルでも確認した。

@@ -2,7 +2,7 @@
 
 [English](README.en.md)
 
-[公式 Tyco](https://ctf.hiddeninvestigations.net/challenges?challenge=2914b4ef-91ea-4270-8965-2d224b7788e0) の配布 ZIP の SHA-256 は `f88f50cb0857595fce5457bc73d756215326093d6a1a478ae552d58460dc99f2` でした。ReFlection の最終公式記録では解答済みです。
+[公式 Tyco](https://ctf.hiddeninvestigations.net/challenges?challenge=2914b4ef-91ea-4270-8965-2d224b7788e0) の配布 ZIP の SHA-256 は `f88f50cb0857595fce5457bc73d756215326093d6a1a478ae552d58460dc99f2` でした。自チームの最終公式記録では解答済みです。
 
 ## 関連平文 RSA
 

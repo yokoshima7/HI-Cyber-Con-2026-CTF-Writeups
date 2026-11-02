@@ -2,7 +2,7 @@
 
 [English](README.en.md)
 
-[公式問題](https://ctf.hiddeninvestigations.net/challenges?challenge=46aa0afb-e480-4614-8634-528586911f7d) · ReFlection、Agentic AI部門
+[公式問題](https://ctf.hiddeninvestigations.net/challenges?challenge=46aa0afb-e480-4614-8634-528586911f7d) · Agentic AI部門
 
 配布ZIPのSHA-256は `15c7f337f5eae52865fbece148237ca5f01b2f4fa703d64a54c4f35a7bb40225` で、152,240,093バイトのPCAPが入っています。複数のもっともらしいアーカイブから、正式なproduction転送を特定する問題です。アーカイブ3件はいずれも認証付き復号に成功するため、復号タグが正しいだけでは選べません。
 
@@ -24,4 +24,4 @@ SDKの配置規則と上記のproduction証拠を使い、final sealのsaltか�
 hiCTF{c8c46fdbd6e5e4eacabfba53a156ff9ab10567f2}
 ```
 
-公式問題画面はこの値に `Flag correct!` と `Challenge solved!` を表示し、ReFlectionの大会終了時の公開解答済み一覧にも本問が含まれます。提出後にローカルソルバーを再実行しても該当転送は1件だけでした。ファームウェア、checkpoint、sealの内容は、キャプチャ中のハッシュ、検証済みcustody chain、認証付き復号で結び付けています。ただし、公開SDKが規定していない一部の個別署名domainは独立には検証していません。
+公式問題画面はこの値に `Flag correct!` と `Challenge solved!` を表示し、自チームの大会終了時の公開解答済み一覧にも本問が含まれます。提出後にローカルソルバーを再実行しても該当転送は1件だけでした。ファームウェア、checkpoint、sealの内容は、キャプチャ中のハッシュ、検証済みcustody chain、認証付き復号で結び付けています。ただし、公開SDKが規定していない一部の個別署名domainは独立には検証していません。
